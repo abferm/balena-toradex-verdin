@@ -7,3 +7,19 @@
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
+[submodule "layers/poky"]
+	path = layers/poky
+	url = https://github.com/balena-os/poky.git
+	branch = kirkstone
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = kirkstone
+[submodule "layers/meta-toradex-bsp-common"]
+	path = layers/meta-toradex-bsp-common
+	url = https://git.toradex.com/cgit/meta-toradex-bsp-common.git
+	branch = kirkstone-6.x.y
+[submodule "layers/meta-toradex-nxp"]
+	path = layers/meta-toradex-nxp
+	url = https://git.toradex.com/cgit/meta-toradex-nxp.git
+	branch = kirkstone-6.x.y
