@@ -29,9 +29,9 @@ module.exports =
         ].concat(postProvisioningInstructions)
 
         gettingStartedLink:
-                windows: 'http://docs.resin.io/imx8mm-var-dart/nodejs/getting-started/#adding-your-first-device'
-                osx: 'http://docs.resin.io/imx8mm-var-dart/getting-started/#adding-your-first-device'
-                linux: 'http://docs.resin.io/imx8mm-var-dart/getting-started/#adding-your-first-device'
+                windows: 'http://docs.resin.io/verdin-imx8mm/nodejs/getting-started/#adding-your-first-device'
+                osx: 'http://docs.resin.io/verdin-imx8mm/getting-started/#adding-your-first-device'
+                linux: 'http://docs.resin.io/verdin-imx8mm/getting-started/#adding-your-first-device'
 
         supportsBlink: false
 
