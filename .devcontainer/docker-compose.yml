@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  dev:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    command: "sleep infinity"
+    privileged: true
+    working_dir: /workdir
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ../:/workdir
+      - extensions:/root/.vscode-server/extensions
+
+volumes:
+  extensions:
